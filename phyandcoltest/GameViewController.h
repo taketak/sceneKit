@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <SceneKit/SceneKit.h>
+#import <CoreMotion/CoreMotion.h>
 
-@interface GameViewController : UIViewController
+@interface GameViewController : UIViewController<SCNPhysicsContactDelegate>
 
 @end
